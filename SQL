@@ -1,13 +1,13 @@
 select name, position
 from sparta_employees
 
-select  
+select dintinct position
 from sparta_employees
 
-select dintinct position
+select *
 from sparta_employees
 where salary between 40000 and 60000
 
-select 
+select *
 from sparta_employees
-where hire_date <'2023-01-01'
+where hire_date < '2023-01-01'
