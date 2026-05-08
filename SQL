@@ -1,0 +1,13 @@
+select name, position
+from sparta_employees
+
+select  
+from sparta_employees
+
+select dintinct position
+from sparta_employees
+where salary between 40000 and 60000
+
+select 
+from sparta_employees
+where hire_date <'2023-01-01'
